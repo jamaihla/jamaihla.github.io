@@ -1,1 +1,5 @@
 node_modules
+app
+gulpfile.js
+tailwind.config.js
+package-lock.json

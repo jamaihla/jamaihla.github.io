@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jamaihla/jamaihla.github.io#readme",
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "autoprefixer": "^10.1.0",
     "cssnano": "^4.1.10",
     "gulp": "^4.0.2",

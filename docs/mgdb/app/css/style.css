@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.inputField {
+    @apply font-roboto border rounded-md p-1 my-2 border-bluegray placeholder-bluegray;
+}
+
+.card {
+    @apply bg-white rounded-md
+}
+
+.card-orange {
+    @apply bg-brightorange rounded-md
+}
