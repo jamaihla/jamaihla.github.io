@@ -9,9 +9,17 @@
 }
 
 .card {
-    @apply bg-white rounded-md
+    @apply bg-white rounded-md p-5 mb-5 shadow-sm
 }
 
 .card-orange {
-    @apply bg-brightorange rounded-md
+    @apply bg-brightorange rounded-md px-5 pt-6 pb-8 mb-5 shadow-md
+}
+
+.grid-card {
+    @apply bg-white rounded-md py-5 px-4 shadow-sm
+}
+
+.subscribe {
+    @apply bg-white rounded-lg py-12 px-5 mb-5 shadow-md
 }

@@ -11,7 +11,8 @@ module.exports = {
         'darkblue': '#1F3075',
         'brightorange': '#ec5e04',
         'bluegray': '#88B3C6',
-        'lightgray': '#f5f5f5'
+        'lightgray': '#f5f5f5',
+        'offwhite': '#fafafa'
       }
     },
   },
