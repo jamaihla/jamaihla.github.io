@@ -4,6 +4,12 @@
 
 @tailwind utilities;
 
+@layer base {
+    li {
+            @apply font-roboto font-medium text-base pb-3;
+    }
+}
+
 .inputField {
     @apply font-roboto border rounded-md p-1 my-2 border-bluegray placeholder-bluegray;
 }
@@ -21,5 +27,9 @@
 }
 
 .subscribe {
-    @apply bg-white rounded-lg py-12 px-5 mb-5 shadow-md
+    @apply bg-white rounded-lg pt-12 pb-20 px-5 mb-5 shadow-lg
+}
+
+.subscription-form {
+    @apply font-roboto border rounded-md p-1 my-2 border-bluegray;
 }
