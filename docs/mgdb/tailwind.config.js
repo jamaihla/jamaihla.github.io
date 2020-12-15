@@ -13,6 +13,9 @@ module.exports = {
         'bluegray': '#88B3C6',
         'lightgray': '#f5f5f5',
         'offwhite': '#fafafa'
+      },
+      gridTemplateColumns: {
+        'cards': '50% minmax(144px, 1fr)'
       }
     },
   },
