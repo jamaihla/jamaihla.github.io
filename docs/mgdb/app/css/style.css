@@ -10,8 +10,12 @@
     }
 }
 
+.sign-in {
+    @apply font-roboto rounded-md bg-brightorange uppercase text-xs px-3 py-2 text-white;
+}
+
 .inputField {
-    @apply font-roboto border rounded-md p-1 my-2 border-bluegray placeholder-bluegray;
+    @apply font-roboto border rounded-md p-1 my-2 border-bluegray placeholder-bluegray lg:text-sm;
 }
 
 .card {

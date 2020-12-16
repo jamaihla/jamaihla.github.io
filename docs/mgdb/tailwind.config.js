@@ -16,7 +16,11 @@ module.exports = {
       },
       gridTemplateColumns: {
         'cards': '50% minmax(144px, 1fr)'
-      }
+      },
+      backgroundImage: theme => ({
+        'main': "url('../img/bg-main.svg')",
+        'main-lg': "url('../img/bg-main-lg.svg')"
+      })
     },
   },
   variants: {
