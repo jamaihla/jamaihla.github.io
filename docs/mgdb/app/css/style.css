@@ -11,7 +11,7 @@
 }
 
 .sign-in {
-    @apply font-roboto rounded-md bg-brightorange uppercase text-xs px-3 py-2 text-white;
+    @apply font-roboto rounded-md hover:bg-darkblue bg-brightorange uppercase text-xs xl:text-base xl:mx-10 px-3 xl:px-8 py-2 text-white;
 }
 
 .inputField {
