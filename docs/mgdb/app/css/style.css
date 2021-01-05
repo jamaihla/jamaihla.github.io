@@ -19,7 +19,7 @@
 }
 
 .card {
-    @apply bg-white rounded-md p-5 mb-5 shadow-sm
+    @apply bg-white rounded-md p-5 mb-5 shadow-md
 }
 
 .card-orange {
