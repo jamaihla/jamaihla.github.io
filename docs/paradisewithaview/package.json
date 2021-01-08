@@ -1,0 +1,32 @@
+{
+  "name": "paradisewithaview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamaihla/jamaihla.github.io.git"
+  },
+  "author": "Jamaihl Amoroso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamaihla/jamaihla.github.io/issues"
+  },
+  "homepage": "https://github.com/jamaihla/jamaihla.github.io#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.2.0",
+    "tailwindcss": "^2.0.2"
+  }
+}
