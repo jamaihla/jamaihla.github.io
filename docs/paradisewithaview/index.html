@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paradise With A View</title>
     <link rel="stylesheet" href="https://use.typekit.net/lwl4jbc.css">
-    <link rel="stylesheet" href="dist/style.css?cb=1610326667149">
+    <link rel="stylesheet" href="dist/style.css?cb=1610413244519">
 </head>
 <body>
-    <header class="bg-lightersalmon mx-auto px-9 py-7">
+    <header class="bg-beachfront bg-cover mx-auto px-9 py-7">
         <div class="flex justify-between items-center pb-14">
             <button>
                 <img src="img/menu.svg" alt="">
@@ -39,6 +39,38 @@
                 <!--Room form-->
             </form>
         </div>
+        <main class="mx-auto px-9 py-7">
+            <div class="bg-white rounded-md p-10 mt-14">
+                <form action="">
+                    <div class="">
+                        <label for="hotel">Choose Hotel</label>
+                        <select class="w-full border" name="hotel" id="">
+                            <option value="royal garden">Royal Garden</option>
+                            <option value="pacific monarch">Pacific Monarch</option>
+                        </select>
+                    </div>
+                    <div class="">
+                        <label for="checkin">Check In</label>
+                        <input class="w-full border" type="date" name="checkindate" id="checkin" value="2021-01-12" min="2021-01-12" max="2021-12-31">
+                    </div>
+                    <div class="">
+                        <label for="checkin">Check Out</label>
+                        <input class="w-full  border" type="date" name="checkindate" id="checkin" value="2021-01-19" min="2021-01-12" max="2021-12-31">
+                    </div>
+                    <div>
+                        <label for="guests">Guests</label>
+                        <input class="w-full" type="number" id="guests" name="guests"
+                            min="1" max="10">
+                    </div>
+                    <div class="mt-8 text-center">
+                        <button class="rounded-md bg-redviolet px-10 py-2 text-offwhite text-sm font-sofia">
+                            Book Now
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+        </main>
     </header>
     <div class="hidden">
         <img src="img/paradise-logo.svg" alt="paradise logo">
@@ -56,6 +88,72 @@
             Booking
         </button>
     </div>
-    
+    <div class="bg-whitish mx-auto px-9 py-7">
+        <h2 class="font-sofia text-lightblack text-center text-xl font-bold">Distinctive Vacation Rentals 
+            and Executive Housing</h2>
+        <p class="font-sofia text-lightblack text-center text-xs font-medium mt-10">Nobis enim ipsam aliquam deserunt rerum omnis soluta ut. Corporis consectetur nemo consequatur. 
+            Possimus alias non et. Quasi atque porro quia enim quisquam assumenda veniam.</p>
+    </div>
+    <!--Royal Garden and Pacific Monarch showcase-->
+    <div class="bg-lightersalmon mx-auto px-9 py-7">
+        <div class="block">
+            <div class="">
+                <h2 class="font-sofia text-lightblack text-center text-xl font-bold">Royal Garden</h2>
+            </div>
+            <div class="">
+                <img src="img/royalgarden.jpg" alt="">
+            </div>
+            <div>
+                <p>Located short steps away from the excitement
+                    of world famous Waikiki beach, the Royal Garden
+                    at Waikiki hotel awaits you upon arrival. On a
+                    peaceful tree-lined lane, just near Ala Wai waterway,
+                    this resort hotel with its elegant tropical gardens
+                    effectively merge European eloquence with
+                    Hawaii's tropical appeal.</p>
+            </div>
+                <button class="bg-redviolet">
+                    Explore
+                </button>
+            </div>
+        </div>        
+    </div>
+    <div class="bg-white mx-auto px-9 py-7">
+        <div class="block">
+            <div class="">
+                <h2 class="font-sofia text-lightblack text-center text-xl font-bold">Pacific Monarch</h2>
+            </div>
+            <div class="">
+                <img src="img/pacificmonarch.jpg" alt="">
+            </div>
+            <div>
+                <p class="text-right">This the best location in Waikiki the exact
+                    center of everything, 100 feet to the beach.
+                    The International Market Place
+                    is one block away. the best restaurant is
+                    in the building. The best kids beach is behind
+                    the seawall just to the left, 
+                    the best surfing is just to the right.</p>
+            </div>
+            <div class="flex justify-end">
+                <button class="bg-redviolet text-right">
+                    Explore
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="bg-offwhite">
+        <div>
+            <h2 class="font-sofia text-lightblack text-center text-xl font-bold">In demand
+                accomodations</h2>
+            <p class="font-sofia text-lightblack text-center text-xs">Five-star service in every 
+                tropical experience</p>
+        </div>
+        <div>
+            <div class="border">
+                <img src="img/beachfront.jpg" alt="">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
