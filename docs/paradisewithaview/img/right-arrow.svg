@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="16.953" viewBox="0 0 35 16.953">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+    </style>
+  </defs>
+  <g id="_001-right-arrow" data-name="001-right-arrow" transform="translate(0 -132)">
+    <g id="Group_1" data-name="Group 1" transform="translate(0 132)">
+      <path id="Path_9" data-name="Path 9" class="cls-1" d="M34.6,139.509h0L27.454,132.4a1.367,1.367,0,0,0-1.929,1.938l4.8,4.773H1.367a1.367,1.367,0,0,0,0,2.734H30.321l-4.8,4.773a1.367,1.367,0,0,0,1.929,1.938l7.144-7.109h0A1.368,1.368,0,0,0,34.6,139.509Z" transform="translate(0 -132)"/>
+    </g>
+  </g>
+</svg>
