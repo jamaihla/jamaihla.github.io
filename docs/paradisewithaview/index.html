@@ -13,7 +13,7 @@
             <button>
                 <img src="img/menu.svg" alt="">
             </button>
-            <img class="w-28" src="img/paradise-logo.svg" alt="paradise logo">
+            <a href="#"><img class="w-28" src="img/paradise-logo.svg" alt="paradise logo"></a>
             <nav class="hidden">
                 <ul>
                     <li>Find A Hotel</li>
@@ -59,7 +59,7 @@
                     </div>
                     <div>
                         <label for="guests">Guests</label>
-                        <input class="w-full" type="number" id="guests" name="guests"
+                        <input class="w-full" type="number" id="guests" name="guests" value="5"
                             min="1" max="10">
                     </div>
                     <div class="mt-8 text-center">
@@ -125,11 +125,11 @@
             <div class="">
                 <h2 class="font-sofia text-lightblack text-center text-2xl font-bold py-8">Pacific Monarch</h2>
             </div>
-            <div class="">
+            <div class="mb-5">
                 <img src="img/pacificmonarch.jpg" alt="">
             </div>
-            <div>
-                <p class="text-right">This the best location in Waikiki the exact
+            <div class="py-8">
+                <p class="font-sofia text-lightblack text-center text-sm">This the best location in Waikiki the exact
                     center of everything, 100 feet to the beach.
                     The International Market Place
                     is one block away. the best restaurant is
@@ -137,101 +137,146 @@
                     the seawall just to the left, 
                     the best surfing is just to the right.</p>
             </div>
-            <div class="flex justify-end">
-                <button class="bg-redviolet text-right">
+            <div class="flex justify-center">
+                <button class="bg-redviolet w-1/2 flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
                     Explore
+                    <img class="ml-2" src="img/right-arrow.svg" alt="">
                 </button>
             </div>
         </div>
     </div>
-    <div class="bg-offwhite py-20">
-        <div>
-            <h2 class="font-sofia text-lightblack text-center text-xl font-bold">In demand
+    <div class="bg-offwhite mx-auto px-9 py-7">
+        <div class="">
+            <h2 class="font-sofia text-lightblack text-center text-xl font-bold pb-5">In demand
                 accomodations</h2>
-            <p class="font-sofia text-lightblack text-center text-xs">Five-star service in every 
+            <p class="font-sofia text-lightblack text-center text-sm pb-8">Five-star service in every 
                 tropical experience</p>
         </div>
-        <div class="mx-auto px-9 py-7">
+        <div class="">
             <div class="card">
-                <img src="img/beachfront.jpg" alt="">
+                <img class="rounded-t-md" src="img/queen-kapiolani.jpg" alt="queen kapolani room">
+                <div class="px-8">
+                    <h3 class="font-sofia text-lightblack text-base py-6 font-semibold">The Queen Kapiolani Room</h3>
+                    <span class="block font-sofia text-lightblack text-sm">One Queen Bed</span>
+                    <span class="block font-sofia text-lightblack text-sm">One Queen Sofa Bed</span>
+                    <div class="">
+                        <span class="inline-block font-sofia text-darkseagreen text-sm font-semibold py-8">$245 a night</span>
+                        <button class="bg-redviolet w-full flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                            Reserve
+                            <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
+                        </button>
+                    </div>
+                </div>
             </div>
             <div class="card">
-                <img src="img/beachfront.jpg" alt="">
+                <img class="rounded-t-md" src="img/princess-kuhio.jpg" alt="princess kuhio room">
+                <div class="px-8">
+                    <h3 class="font-sofia text-lightblack text-base py-6 font-semibold">The Princess Kuhio Loggia</h3>
+                    <span class="block font-sofia text-lightblack text-sm">Two Double Beds</span>
+                    <span class="block font-sofia text-lightblack text-sm">One Queen Sofa Bed</span>
+                    <div class="">
+                        <span class="inline-block font-sofia text-darkseagreen text-sm font-semibold py-8">$350 a night</span>
+                        <button class="bg-redviolet w-full flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                            Reserve
+                            <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
+                        </button>
+                    </div>
+                </div>
             </div>
             <div class="card">
-                <img src="img/beachfront.jpg" alt="">
+                <img class="rounded-t-md" src="img/king-kalakaua.jpg" alt="king kalakaua room">
+                <div class="px-8">
+                    <h3 class="font-sofia text-lightblack text-base py-6 font-semibold">The King Kalakaua Suite</h3>
+                    <span class="block font-sofia text-lightblack text-sm">One Queen Bed</span>
+                    <span class="block font-sofia text-lightblack text-sm">One Queen Sofa Bed</span>
+                    <div class="">
+                        <span class="inline-block font-sofia text-darkseagreen text-sm font-semibold py-8">$750 a night</span>
+                        <button class="bg-redviolet w-full flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                            Reserve
+                            <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="grid mx-auto px-9 py-7">
         <div>
-            <h2 class="font-sofia text-lightblack text-center text-xl font-bold">Relax and enjoy
+            <h2 class="font-sofia text-lightblack text-center text-xl font-bold pb-10">Relax and enjoy
                 in our exceptional facilities</h2>
-            <p class="font-sofia text-lightblack text-center text-xs">With our variety of facilities, you'll surely
+            <p class="font-sofia text-lightblack text-center text-sm">With our variety of facilities, you'll surely
                 feel like you're in paradise</p>
         </div>
         <div class="mx-auto">
             <div class="w-full my-10">
                 <img class="mx-auto mb-5" src="img/comfy-room.svg" alt="comfy room">
-                <h3 class="font-sofia text-lightblack text-center">Comfy rooms</h3>
+                <h3 class="font-sofia text-lightblack text-center font-semibold pb-2">Comfy rooms</h3>
                 <p class="font-sofia text-lightblack text-center text-xs">Here you get a full apartment with fitness room and spa.</p>
             </div>
             <div class="w-full mb-10">
                 <img class="mx-auto mb-5" src="img/buffet.svg" alt="buffet">
-                <h3 class="font-sofia text-lightblack text-center">Delicious Buffets</h3>
+                <h3 class="font-sofia text-lightblack text-center font-semibold pb-2">Delicious Buffets</h3>
                 <p class="font-sofia text-lightblack text-center text-xs">Have a feast everyday whether it's
                     breakfast, lunch, dinner, or even
                     just a snack!</p>
             </div>
             <div class="w-full mb-10">
                 <img class="mx-auto mb-5" src="img/pools.svg" alt="pools">
-                <h3 class="font-sofia text-lightblack text-center">Luxurious Pools</h3>
+                <h3 class="font-sofia text-lightblack text-center font-semibold pb-2">Luxurious Pools</h3>
                 <p class="font-sofia text-lightblack text-center text-xs">Take a swim or go on a deep dive in our
                     luxurious swimming pools.</p>
             </div>
             <div class="w-full mb-10">
                 <img class="mx-auto mb-5" src="img/support.svg" alt="support">
-                <h3 class="font-sofia text-lightblack text-center">24-hour support</h3>
+                <h3 class="font-sofia text-lightblack text-center font-semibold pb-2">24-hour support</h3>
                 <p class="font-sofia text-lightblack text-center text-xs">Our hotel staff and services are standing by
                     24/7 to attend to your needs.</p>
             </div>
         </div>
     </div>
-    <footer class="bg-lightersalmon mx-autp px-9 py-7">
-        <div>
+    <footer class="bg-lightersalmon mx-auto px-9 py-7">
+        <div class="pt-20">
             <div>
-                <img src="img/paradise-logo.svg" alt="">
-                <h3>Paradise with a view</h3>
-                <p>Distinctive Vacation Rentals and
+                <img class="pb-6" src="img/paradise-logo.svg" alt="">
+                <h3 class="font-sofia text-lightblack text-xl font-semibold">Paradise with a view</h3>
+                <p class="font-sofia text-lightblack">Distinctive Vacation Rentals and
                     Exclusive Housing</p>
             </div>
-            <nav>
+            <nav class="py-8">
                 <ul>
-                    <li><a href="#">Find a Hotel</a></li>
-                    <li><a href="#">Amenities</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Housing</a></li>
-                    <li><a href="#">Events</a></li>
+                    <li class="py-1 block"><a href="#">Find a Hotel</a></li>
+                    <li class="py-1 block"><a href="#">Amenities</a></li>
+                    <li class="py-1 block"><a href="#">Gallery</a></li>
+                    <li class="py-1 block"><a href="#">Housing</a></li>
+                    <li class="py-1 block"><a href="#">Events</a></li>
                 </ul>
             </nav>
-            <div>
-                <h3>Our Featured Hotels</h3>
+            <div class="pb-5">
+                <h3 class="font-sofia text-lightblack text-xl font-semibold py-5">Our Featured Hotels</h3>
                 <ul>
                     <li>The Royal Garden Hotel and Spa</li>
                     <li>The Pacific Monarch Hotel Waikiki</li>
                 </ul>
             </div>
             <div>
-                <h3>Contact Us</h3>
-
+                <h3 class="font-sofia text-lightblack text-xl font-semibold py-5">Contact Us</h3>
                 <address>
                     ParadiseWithAView.com
                     c/o Investec, Inc. 1777 Ala Moana Blvd.,
                     Suite 116-84, Honolulu, HI 96815
                   </address>
+                  <div class="pt-12">
+                      <ul>
+                          <li class="inline-block align-middle"><a href="#"><img src="img/facebook.svg" alt="facebook"></a></li>
+                          <li class="inline-block align-middle"><a href="#"><img src="img/instagram.svg" alt="instagram"></a></li>
+                          <li class="inline-block align-middle"><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
+                          <li class="inline-block align-middle"><a href="#"><img src="img/youtube.svg" alt="youtube"></a></li>
+                          <li class="inline-block align-middle"><a href="#"><img src="img/pinterest.svg" alt="pinterest"></a></li>
+                      </ul>
+                  </div>
             </div>
         </div>
-        <div>
+        <div class="py-5">
             <p>2021 Paradisewithaview.com</p>
             <p>Privacy Policy</p>
             <p>Terms and Conditions</p>
