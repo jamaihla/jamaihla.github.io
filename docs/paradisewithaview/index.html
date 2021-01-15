@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paradise With A View</title>
     <link rel="stylesheet" href="https://use.typekit.net/lwl4jbc.css">
-    <link rel="stylesheet" href="dist/style.css?cb=1610585799974">
+    <link rel="stylesheet" href="dist/style.css?cb=1610672621107">
 </head>
 <body>
-    <header class="bg-beachfront tablet:bg-lightersalmon bg-cover tablet:bg-none mx-auto px-9 py-7">
+    <header class="bg-beachfront tablet:bg-lightersalmon bg-cover tablet:bg-none mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
         <div class="flex justify-between items-center pb-14">
             <button>
                 <img src="img/menu.svg" alt="">
             </button>
-            <a href="#"><img class="w-28" src="img/paradise-logo.svg" alt="paradise logo"></a>
+            <a href="#"><img class="w-28 tablet:w-52" src="img/paradise-logo.svg" alt="paradise logo"></a>
             <nav class="hidden">
                 <ul>
                     <li>Find A Hotel</li>
@@ -23,16 +23,16 @@
                     <li>Events</li>
                 </ul>
             </nav>
-            <button class="hidden bg-redviolet text-white">
-                <img src="img/book.svg" alt="book icon">
-                Booking
+            <button class="hidden tablet:flex py-2 px-5 bg-redviolet text-white rounded-md justify-between items-center">
+                <img class="pr-2 align-middle" src="img/book.svg" alt="book icon">
+                <span class="font-sofia text-xl align-middle">Bookings</span>
             </button>
-            <button>
+            <button class="tablet:hidden">
                 <img src="img/book-mobile.svg" alt="book mobile icon">
             </button>
         </div>
         <div>
-            <h1 class="font-sofia font-bold text-lightblack text-center text-3xl">Experience Paradise <br>In Every Vacation</h1>
+            <h1 class="font-sofia font-bold text-lightblack text-center text-3xl tablet:text-5xl">Experience Paradise <br>In Every Vacation</h1>
         </div>
         <div>
             <form>
@@ -41,7 +41,7 @@
         </div>
         <main class="mx-auto px-9 py-7">
             <div class="bg-white rounded-md p-10 mt-14">
-                <form action="">
+                <form class="tablet:flex" action="">
                     <div class="">
                         <label for="hotel">Choose Hotel</label>
                         <select class="w-full border" name="hotel" id="">
@@ -88,14 +88,14 @@
             Booking
         </button>
     </div>
-    <div class="bg-whitish mx-auto px-9 py-7">
+    <div class="bg-whitish mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
         <h2 class="font-sofia text-lightblack text-center text-2xl font-bold">Distinctive Vacation Rentals 
             and Executive Housing</h2>
         <p class="font-sofia text-lightblack text-center text-sm font-medium mt-10">Nobis enim ipsam aliquam deserunt rerum omnis soluta ut. Corporis consectetur nemo consequatur. 
             Possimus alias non et. Quasi atque porro quia enim quisquam assumenda veniam.</p>
     </div>
     <!--Royal Garden and Pacific Monarch showcase-->
-    <div class="bg-lightersalmon mx-auto px-9 py-7">
+    <div class="bg-lightersalmon mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
         <div class="block">
             <div class="">
                 <h2 class="font-sofia text-lightblack text-center text-2xl font-bold py-8">Royal Garden</h2>
@@ -120,7 +120,7 @@
             </div>
         </div>        
     </div>
-    <div class="bg-white mx-auto px-9 py-7">
+    <div class="bg-white mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
         <div class="block">
             <div class="">
                 <h2 class="font-sofia text-lightblack text-center text-2xl font-bold py-8">Pacific Monarch</h2>
@@ -145,7 +145,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-offwhite mx-auto px-9 py-7">
+    <div class="bg-offwhite mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
         <div class="">
             <h2 class="font-sofia text-lightblack text-center text-xl font-bold pb-5">In demand
                 accomodations</h2>
@@ -154,7 +154,7 @@
         </div>
         <div class="">
             <div class="card">
-                <img class="rounded-t-md" src="img/queen-kapiolani.jpg" alt="queen kapolani room">
+                <img class="rounded-t-md w-full" src="img/queen-kapiolani.jpg" alt="queen kapolani room">
                 <div class="px-8">
                     <h3 class="font-sofia text-lightblack text-base py-6 font-semibold">The Queen Kapiolani Room</h3>
                     <span class="block font-sofia text-lightblack text-sm">One Queen Bed</span>
@@ -169,7 +169,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="rounded-t-md" src="img/princess-kuhio.jpg" alt="princess kuhio room">
+                <img class="rounded-t-md w-full" src="img/princess-kuhio.jpg" alt="princess kuhio room">
                 <div class="px-8">
                     <h3 class="font-sofia text-lightblack text-base py-6 font-semibold">The Princess Kuhio Loggia</h3>
                     <span class="block font-sofia text-lightblack text-sm">Two Double Beds</span>
@@ -184,7 +184,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="rounded-t-md" src="img/king-kalakaua.jpg" alt="king kalakaua room">
+                <img class="rounded-t-md w-full" src="img/king-kalakaua.jpg" alt="king kalakaua room">
                 <div class="px-8">
                     <h3 class="font-sofia text-lightblack text-base py-6 font-semibold">The King Kalakaua Suite</h3>
                     <span class="block font-sofia text-lightblack text-sm">One Queen Bed</span>
@@ -200,7 +200,7 @@
             </div>
         </div>
     </div>
-    <div class="grid mx-auto px-9 py-7">
+    <div class="grid mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
         <div>
             <h2 class="font-sofia text-lightblack text-center text-xl font-bold pb-10">Relax and enjoy
                 in our exceptional facilities</h2>
@@ -234,8 +234,8 @@
             </div>
         </div>
     </div>
-    <footer class="bg-lightersalmon mx-auto px-9 py-7">
-        <div class="pt-20">
+    <footer class="bg-lightersalmon mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
+        <div class="pt-10">
             <div>
                 <img class="pb-6" src="img/paradise-logo.svg" alt="">
                 <h3 class="font-sofia text-lightblack text-xl font-semibold">Paradise with a view</h3>
@@ -244,25 +244,25 @@
             </div>
             <nav class="py-8">
                 <ul>
-                    <li class="py-1 block"><a href="#">Find a Hotel</a></li>
-                    <li class="py-1 block"><a href="#">Amenities</a></li>
-                    <li class="py-1 block"><a href="#">Gallery</a></li>
-                    <li class="py-1 block"><a href="#">Housing</a></li>
-                    <li class="py-1 block"><a href="#">Events</a></li>
+                    <li class="py-1 block font-sofia text-lightblack text-sm font-medium"><a href="#">Find a Hotel</a></li>
+                    <li class="py-1 block font-sofia text-lightblack text-sm font-medium"><a href="#">Amenities</a></li>
+                    <li class="py-1 block font-sofia text-lightblack text-sm font-medium"><a href="#">Gallery</a></li>
+                    <li class="py-1 block font-sofia text-lightblack text-sm font-medium"><a href="#">Housing</a></li>
+                    <li class="py-1 block font-sofia text-lightblack text-sm font-medium"><a href="#">Events</a></li>
                 </ul>
             </nav>
             <div class="pb-5">
                 <h3 class="font-sofia text-lightblack text-xl font-semibold py-5">Our Featured Hotels</h3>
                 <ul>
-                    <li>The Royal Garden Hotel and Spa</li>
-                    <li>The Pacific Monarch Hotel Waikiki</li>
+                    <li class="font-sofia text-lightblack text-sm font-medium">The Royal Garden Hotel and Spa</li>
+                    <li class="font-sofia text-lightblack text-sm font-medium">The Pacific Monarch Hotel Waikiki</li>
                 </ul>
             </div>
             <div>
                 <h3 class="font-sofia text-lightblack text-xl font-semibold py-5">Contact Us</h3>
-                <address>
-                    ParadiseWithAView.com
-                    c/o Investec, Inc. 1777 Ala Moana Blvd.,
+                <address class="font-sofia text-lightblack text-sm font-medium not-italic">
+                    ParadiseWithAView.com <br>
+                    c/o Investec, Inc. 1777 Ala Moana Blvd., <br>
                     Suite 116-84, Honolulu, HI 96815
                   </address>
                   <div class="pt-12">
@@ -277,9 +277,9 @@
             </div>
         </div>
         <div class="py-5">
-            <p>2021 Paradisewithaview.com</p>
-            <p>Privacy Policy</p>
-            <p>Terms and Conditions</p>
+            <p class="font-sofia text-lightblack text-sm">2021 Paradisewithaview.com</p>
+            <p class="font-sofia text-lightblack text-sm">Privacy Policy</p>
+            <p class="font-sofia text-lightblack text-sm">Terms and Conditions</p>
         </div>
     </footer>
 </body>
