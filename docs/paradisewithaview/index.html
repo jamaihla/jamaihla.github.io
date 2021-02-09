@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paradise With A View</title>
     <link rel="stylesheet" href="https://use.typekit.net/lwl4jbc.css">
-    <link rel="stylesheet" href="dist/style.css?cb=1611190640956">
+    <link rel="stylesheet" href="dist/style.css?cb=1612832353059">
 </head>
 <body>
     <header class="bg-beachfront tablet:bg-lightersalmon bg-cover tablet:bg-none mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
         <div class="flex justify-between items-center pb-14">
-            <button>
+            <button class="desktop:hidden">
                 <img src="img/menu.svg" alt="">
             </button>
             <a href="#"><img class="w-28 tablet:w-52" src="img/paradise-logo.svg" alt="paradise logo"></a>
-            <nav class="hidden">
+            <nav class="hidden desktop:block">
                 <ul>
-                    <li>Find A Hotel</li>
-                    <li>Amenities</li>
-                    <li>Gallery</li>
-                    <li>Housing</li>
-                    <li>Events</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2">Find A Hotel</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2">Amenities</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2">Gallery</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2">Housing</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2">Events</li>
                 </ul>
             </nav>
             <button class="hidden tablet:flex py-2 px-5 bg-redviolet text-white rounded-md justify-between items-center">
@@ -32,7 +32,7 @@
             </button>
         </div>
         <div>
-            <h1 class="font-sofia font-bold text-lightblack text-center text-3xl tablet:text-5xl">Experience Paradise <br>In Every Vacation</h1>
+            <h1 class="font-sofia font-bold text-lightblack text-center text-3xl tablet:text-5xl desktop:text-8xl">Experience Paradise <br>In Every Vacation</h1>
         </div>
         <div>
             <form>
@@ -41,24 +41,24 @@
         </div>
         <main class="mx-auto px-9 py-7 tablet:px-0">
             <div class="bg-white rounded-md p-10 mt-14">
-                <form class="tablet:flex" action="">
+                <form class="tablet:flex justify-center" action="">
                     <div class="">
-                        <label for="hotel">Choose Hotel</label>
+                        <label class="font-sofia" for="hotel">Choose Hotel</label>
                         <select class="w-full border" name="hotel" id="">
                             <option value="royal garden">Royal Garden</option>
                             <option value="pacific monarch">Pacific Monarch</option>
                         </select>
                     </div>
                     <div class="">
-                        <label for="checkin">Check In</label>
+                        <label class="font-sofia" for="checkin">Check In</label>
                         <input class="w-full border" type="date" name="checkindate" id="checkin" value="2021-01-12" min="2021-01-12" max="2021-12-31">
                     </div>
                     <div class="">
-                        <label for="checkin">Check Out</label>
+                        <label class="font-sofia" for="checkin">Check Out</label>
                         <input class="w-full  border" type="date" name="checkindate" id="checkin" value="2021-01-19" min="2021-01-12" max="2021-12-31">
                     </div>
                     <div>
-                        <label for="guests">Guests</label>
+                        <label class="font-sofia" for="guests">Guests</label>
                         <input class="w-full" type="number" id="guests" name="guests" value="5"
                             min="1" max="10">
                     </div>
@@ -100,10 +100,12 @@
             </div>
         </div>
         
-        <h2 class="font-sofia text-lightblack text-center text-2xl tablet:text-4xl font-bold">Distinctive Vacation Rentals 
-            and Executive Housing</h2>
-        <p class="font-sofia text-lightblack text-center text-sm tablet:text-xl font-medium mt-10">Nobis enim ipsam aliquam deserunt rerum omnis soluta ut. Corporis consectetur nemo consequatur. 
-            Possimus alias non et. Quasi atque porro quia enim quisquam assumenda veniam.</p>
+        <div>
+            <h2 class="font-sofia text-lightblack text-center text-2xl tablet:text-4xl font-bold">Distinctive Vacation Rentals 
+                and Executive Housing</h2>
+            <p class="font-sofia text-lightblack text-center text-sm tablet:text-xl font-medium mt-10">Nobis enim ipsam aliquam deserunt rerum omnis soluta ut. Corporis consectetur nemo consequatur. 
+                Possimus alias non et. Quasi atque porro quia enim quisquam assumenda veniam.</p>
+        </div>
     </div>
     <!--Royal Garden and Pacific Monarch showcase-->
     <div class="bg-lightersalmon mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
@@ -149,7 +151,7 @@
                     the best surfing is just to the right.</p>
             </div>
             <div class="flex justify-center items-center">
-                <button class="bg-redviolet w-1/2 flex justify-center text-offwhite px-2 py-3 items-center rounded-md font-sofia">
+                <button class="bg-redviolet w-1/2 tablet:w-1/3 flex justify-center text-offwhite px-2 py-3 items-center rounded-md font-sofia">
                     Explore
                     <img class="ml-2" src="img/right-arrow.svg" alt="">
                 </button>
@@ -172,7 +174,7 @@
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Sofa Bed</span>
                     <div class="">
                         <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8">$245 a night</span>
-                        <button class="bg-redviolet w-full flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
                             Reserve
                             <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
                         </button>
@@ -187,7 +189,7 @@
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Sofa Bed</span>
                     <div class="">
                         <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8">$350 a night</span>
-                        <button class="bg-redviolet w-full flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
                             Reserve
                             <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
                         </button>
@@ -202,7 +204,7 @@
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Sofa Bed</span>
                     <div class="">
                         <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8">$750 a night</span>
-                        <button class="bg-redviolet w-full flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
                             Reserve
                             <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
                         </button>
