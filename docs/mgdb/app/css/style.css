@@ -15,7 +15,7 @@
 }
 
 .inputField {
-    @apply font-roboto border rounded-md p-1 my-2 border-bluegray placeholder-bluegray lg:text-sm;
+    @apply font-roboto border-b rounded-md p-1 my-2 border-bluegray placeholder-bluegray lg:text-sm;
 }
 
 .card {

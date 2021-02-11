@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paradise With A View</title>
     <link rel="stylesheet" href="https://use.typekit.net/lwl4jbc.css">
-    <link rel="stylesheet" href="dist/style.css?cb=1612832353059">
+    <link rel="stylesheet" href="dist/style.css?cb=1613005242777">
 </head>
 <body>
     <header class="bg-beachfront tablet:bg-lightersalmon bg-cover tablet:bg-none mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
@@ -16,11 +16,11 @@
             <a href="#"><img class="w-28 tablet:w-52" src="img/paradise-logo.svg" alt="paradise logo"></a>
             <nav class="hidden desktop:block">
                 <ul>
-                    <li class="inline-block font-sofia font-medium text-2xl px-2">Find A Hotel</li>
-                    <li class="inline-block font-sofia font-medium text-2xl px-2">Amenities</li>
-                    <li class="inline-block font-sofia font-medium text-2xl px-2">Gallery</li>
-                    <li class="inline-block font-sofia font-medium text-2xl px-2">Housing</li>
-                    <li class="inline-block font-sofia font-medium text-2xl px-2">Events</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base">Find A Hotel</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base">Amenities</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base">Gallery</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base">Housing</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base">Events</li>
                 </ul>
             </nav>
             <button class="hidden tablet:flex py-2 px-5 bg-redviolet text-white rounded-md justify-between items-center">
@@ -32,38 +32,38 @@
             </button>
         </div>
         <div>
-            <h1 class="font-sofia font-bold text-lightblack text-center text-3xl tablet:text-5xl desktop:text-8xl">Experience Paradise <br>In Every Vacation</h1>
+            <h1 class="font-sofia font-bold text-lightblack text-center text-3xl tablet:text-5xl desktop:text-6xl">Experience Paradise <br>In Every Vacation</h1>
         </div>
         <div>
             <form>
                 <!--Room form-->
             </form>
         </div>
-        <main class="mx-auto px-9 py-7 tablet:px-0">
-            <div class="bg-white rounded-md p-10 mt-14">
-                <form class="tablet:flex justify-center" action="">
-                    <div class="">
+        <main class="mx-auto px-9 py-7 tablet:px-0 2xl:px-80">
+            <div class="bg-white rounded-md p-10 mt-14 relative z-10">
+                <form class="desktop:flex justify-center" action="">
+                    <div class="mx-2">
                         <label class="font-sofia" for="hotel">Choose Hotel</label>
-                        <select class="w-full border" name="hotel" id="">
-                            <option value="royal garden">Royal Garden</option>
-                            <option value="pacific monarch">Pacific Monarch</option>
+                        <select class="w-full inputField bg-transparent" name="hotel" id="">
+                            <option class="font-sofia" value="royal garden">Royal Garden</option>
+                            <option class="font-sofia" value="pacific monarch" selected>Pacific Monarch</option>
                         </select>
                     </div>
-                    <div class="">
+                    <div class="mx-2">
                         <label class="font-sofia" for="checkin">Check In</label>
-                        <input class="w-full border" type="date" name="checkindate" id="checkin" value="2021-01-12" min="2021-01-12" max="2021-12-31">
+                        <input class="w-full inputField" type="date" name="checkindate" id="checkin" value="2021-02-10" min="2021-02-10" max="2021-12-31">
                     </div>
-                    <div class="">
+                    <div class="mx-2">
                         <label class="font-sofia" for="checkin">Check Out</label>
-                        <input class="w-full  border" type="date" name="checkindate" id="checkin" value="2021-01-19" min="2021-01-12" max="2021-12-31">
+                        <input class="w-full inputField" type="date" name="checkindate" id="checkin" value="2021-02-10" min="2021-02-10" max="2021-12-31">
                     </div>
-                    <div>
+                    <div class="mx-2">
                         <label class="font-sofia" for="guests">Guests</label>
-                        <input class="w-full" type="number" id="guests" name="guests" value="5"
+                        <input class="w-full inputField" type="number" id="guests" name="guests" value="5"
                             min="1" max="10">
                     </div>
                     <div class="mt-8 text-center">
-                        <button class="rounded-md bg-redviolet px-10 py-2 text-offwhite text-sm font-sofia">
+                        <button class="rounded-md bg-redviolet px-10 py-2 text-offwhite text-sm desktop:px-5 font-sofia">
                             Book Now
                         </button>
                     </div>
@@ -87,20 +87,20 @@
             Booking
         </button>
     </div>
-    <div class="bg-whitish mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
+    <div class="bg-whitish mx-auto px-9 py-7 tablet:px-20 tablet:py-9 2xl:mb-80">
         <div class="hidden tablet:flex items-center justify-between">
-            <div class="w-36 h-28 mr-2">
+            <div class="w-36 h-28 mr-2 desktop:w-1/4">
                 <img class="rounded-xl" src="img/beach-chair.jpg" alt="beach-chair">
             </div>
-            <div class="w-74 h-49 mr-2">
+            <div class="w-74 h-49 mr-2 desktop:w-2/4">
                 <img class="rounded-xl" src="img/beach-shot.jpg" alt="beach shot">
             </div>
-            <div class="w-35 h-52">
+            <div class="w-35 h-52 relative -top-32 2xl:-top-30 desktop:w-1/4 z-0">
                 <img class="rounded-xl mr-2" src="img/tropics.jpg" alt="tropics">
             </div>
         </div>
         
-        <div>
+        <div class="desktop:mt-72 2xl:mt-80">
             <h2 class="font-sofia text-lightblack text-center text-2xl tablet:text-4xl font-bold">Distinctive Vacation Rentals 
                 and Executive Housing</h2>
             <p class="font-sofia text-lightblack text-center text-sm tablet:text-xl font-medium mt-10">Nobis enim ipsam aliquam deserunt rerum omnis soluta ut. Corporis consectetur nemo consequatur. 
@@ -109,23 +109,29 @@
     </div>
     <!--Royal Garden and Pacific Monarch showcase-->
     <div class="bg-lightersalmon mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
-        <div class="block">
-            <div class="">
-                <h2 class="font-sofia text-lightblack text-center text-2xl tablet:text-4xl font-bold py-8">Royal Garden</h2>
+        <div class="block desktop:grid desktop:grid-cols-2">
+            <div class="desktop:pr-20">
+                <h2 class="font-sofia text-lightblack text-center desktop:text-left text-2xl tablet:text-4xl font-bold py-8">Royal Garden</h2>
+                <div class="py-8">
+                    <p class="font-sofia text-lightblack text-center desktop:text-left text-sm tablet:text-xl">Located short steps away from the excitement
+                        of world famous Waikiki beach, the Royal Garden
+                        at Waikiki hotel awaits you upon arrival. On a
+                        peaceful tree-lined lane, just near Ala Wai waterway,
+                        this resort hotel with its elegant tropical gardens
+                        effectively merge European eloquence with
+                        Hawaii's tropical appeal.</p>
+                </div>
+                <button class="bg-redviolet w-1/2 tablet:w-1/3 desktop:flex justify-center text-offwhite px-2 py-3 items-center rounded-md font-sofia hidden">
+                    Explore
+                    <img class="ml-2" src="img/right-arrow.svg" alt="right arrow">
+                </button>
             </div>
             <div class="mb-5">
                 <img src="img/royalgarden.jpg" alt="">
+                <span>View Gallery</span>
             </div>
-            <div class="py-8">
-                <p class="font-sofia text-lightblack text-center text-sm tablet:text-xl">Located short steps away from the excitement
-                    of world famous Waikiki beach, the Royal Garden
-                    at Waikiki hotel awaits you upon arrival. On a
-                    peaceful tree-lined lane, just near Ala Wai waterway,
-                    this resort hotel with its elegant tropical gardens
-                    effectively merge European eloquence with
-                    Hawaii's tropical appeal.</p>
-            </div>
-            <div class="flex justify-center items-center">
+            
+            <div class="flex justify-center items-center desktop:hidden">
                 <button class="bg-redviolet w-1/2 tablet:w-1/3 flex justify-center text-offwhite px-2 py-3 items-center rounded-md font-sofia">
                     Explore
                     <img class="ml-2" src="img/right-arrow.svg" alt="right arrow">
@@ -134,23 +140,30 @@
         </div>        
     </div>
     <div class="bg-white mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
-        <div class="block">
-            <div class="">
-                <h2 class="font-sofia text-lightblack text-center text-2xl tablet:text-4xl font-bold py-8">Pacific Monarch</h2>
+        <div class="block desktop:grid desktop:grid-cols-2">
+            <div class="row-start-1 col-start-2 desktop:pl-20">
+                <h2 class="font-sofia text-lightblack text-center desktop:text-right text-2xl tablet:text-4xl font-bold py-8">Pacific Monarch</h2>
+                <div class="py-8">
+                    <p class="font-sofia text-lightblack text-center desktop:text-right text-sm tablet:text-xl">This the best location in Waikiki the exact
+                        center of everything, 100 feet to the beach.
+                        The International Market Place
+                        is one block away. the best restaurant is
+                        in the building. The best kids beach is behind
+                        the seawall just to the left, 
+                        the best surfing is just to the right.</p>
+                </div>
+                <div class="flex justify-end">
+                    <button class="hidden bg-redviolet w-1/2 tablet:w-1/3 desktop:flex justify-center text-offwhite px-2 py-3 items-center rounded-md font-sofia">
+                        Explore
+                        <img class="ml-2" src="img/right-arrow.svg" alt="">
+                    </button>
+                </div>
+                
             </div>
             <div class="mb-5">
                 <img src="img/pacificmonarch.jpg" alt="">
             </div>
-            <div class="py-8">
-                <p class="font-sofia text-lightblack text-center text-sm tablet:text-xl">This the best location in Waikiki the exact
-                    center of everything, 100 feet to the beach.
-                    The International Market Place
-                    is one block away. the best restaurant is
-                    in the building. The best kids beach is behind
-                    the seawall just to the left, 
-                    the best surfing is just to the right.</p>
-            </div>
-            <div class="flex justify-center items-center">
+            <div class="flex justify-center items-center desktop:hidden">
                 <button class="bg-redviolet w-1/2 tablet:w-1/3 flex justify-center text-offwhite px-2 py-3 items-center rounded-md font-sofia">
                     Explore
                     <img class="ml-2" src="img/right-arrow.svg" alt="">
@@ -158,6 +171,7 @@
             </div>
         </div>
     </div>
+    <!--Rooms Showcase-->
     <div class="bg-offwhite mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
         <div class="">
             <h2 class="font-sofia text-lightblack text-center text-xl tablet:text-4xl font-bold pb-5">In demand
@@ -165,16 +179,16 @@
             <p class="font-sofia text-lightblack text-center text-sm tablet:text-xl pb-8">Five-star service in every 
                 tropical experience</p>
         </div>
-        <div class="">
+        <div class="desktop:flex">
             <div class="card">
                 <img class="rounded-t-3xl w-full" src="img/queen-kapiolani.jpg" alt="queen kapiolani room">
                 <div class="px-8">
                     <h3 class="font-sofia text-lightblack text-base tablet:text-2xl py-6 font-semibold">The Queen Kapiolani Room</h3>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Bed</span>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Sofa Bed</span>
-                    <div class="">
-                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8">$245 a night</span>
-                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                    <div class="desktop:flex desktop:justify-between 2xl:mt-24">
+                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8 2xl:p-0">$245 a night</span>
+                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto 2xl:mx-0 flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
                             Reserve
                             <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
                         </button>
@@ -187,9 +201,9 @@
                     <h3 class="font-sofia text-lightblack text-base tablet:text-2xl py-6 font-semibold">The Princess Kuhio Loggia</h3>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">Two Double Beds</span>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Sofa Bed</span>
-                    <div class="">
-                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8">$350 a night</span>
-                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                    <div class="desktop:flex desktop:justify-between 2xl:mt-24">
+                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8 2xl:p-0">$350 a night</span>
+                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto 2xl:mx-0 flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
                             Reserve
                             <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
                         </button>
@@ -202,9 +216,9 @@
                     <h3 class="font-sofia text-lightblack text-base tablet:text-2xl py-6 font-semibold">The King Kalakaua Suite</h3>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Bed</span>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Sofa Bed</span>
-                    <div class="">
-                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8">$750 a night</span>
-                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                    <div class="desktop:flex desktop:justify-between 2xl:mt-24">
+                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8 2xl:p-0">$750 a night</span>
+                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto 2xl:mx-0 flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
                             Reserve
                             <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
                         </button>
@@ -216,35 +230,35 @@
     <div class="mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
         <div class="desktop:flex">
             <div class="">
-                <div class="mb-8">
-                    <h2 class="font-sofia text-lightblack text-center text-xl tablet:text-4xl font-bold pb-10">Relax and enjoy
+                <div class="mb-8 desktop:px-6">
+                    <h2 class="font-sofia text-lightblack text-center desktop:text-left text-xl tablet:text-4xl font-bold pb-10">Relax and enjoy <br>
                         in our exceptional facilities</h2>
-                    <p class="font-sofia text-lightblack text-center text-sm tablet:text-xl">With our variety of facilities, you'll surely
+                    <p class="font-sofia text-lightblack text-center desktop:text-left text-sm tablet:text-xl">With our variety of facilities, you'll surely
                         feel like you're in paradise</p>
                 </div>
-                <div class="mx-auto tablet:grid tablet:grid-cols-2">
+                <div class="mx-auto tablet:grid tablet:grid-cols-2 desktop:px-4">
                     <div class="w-full my-10 tablet:mt-0">
-                        <img class="mx-auto mb-5" src="img/comfy-room.svg" alt="comfy room">
-                        <h3 class="font-sofia text-lightblack text-center font-semibold pb-2 tablet:text-xl">Comfy rooms</h3>
-                        <p class="font-sofia text-lightblack text-center text-xs tablet:text-sm">Here you get a full apartment with fitness room and spa.</p>
+                        <img class="mx-auto desktop:mx-0 mb-5" src="img/comfy-room.svg" alt="comfy room">
+                        <h3 class="font-sofia text-lightblack text-center desktop:text-left  font-semibold pb-2 tablet:text-xl">Comfy rooms</h3>
+                        <p class="font-sofia text-lightblack text-center desktop:text-left text-xs tablet:text-sm">Here you get a full apartment with fitness room and spa.</p>
                     </div>
                     <div class="w-full mb-10">
-                        <img class="mx-auto mb-5" src="img/buffet.svg" alt="buffet">
-                        <h3 class="font-sofia text-lightblack text-center font-semibold pb-2 tablet:text-xl">Delicious Buffets</h3>
-                        <p class="font-sofia text-lightblack text-center text-xs tablet:text-sm">Have a feast everyday whether it's
+                        <img class="mx-auto desktop:mx-0 mb-5" src="img/buffet.svg" alt="buffet">
+                        <h3 class="font-sofia text-lightblack text-center desktop:text-left font-semibold pb-2 tablet:text-xl">Delicious Buffets</h3>
+                        <p class="font-sofia text-lightblack text-center desktop:text-left text-xs tablet:text-sm">Have a feast everyday whether it's
                             breakfast, lunch, dinner, or even
                             just a snack!</p>
                     </div>
                     <div class="w-full mb-10">
-                        <img class="mx-auto mb-5" src="img/pools.svg" alt="pools">
-                        <h3 class="font-sofia text-lightblack text-center font-semibold pb-2 tablet:text-xl">Luxurious Pools</h3>
-                        <p class="font-sofia text-lightblack text-center text-xs tablet:text-sm">Take a swim or go on a deep dive in our
+                        <img class="mx-auto desktop:mx-0 mb-5" src="img/pools.svg" alt="pools">
+                        <h3 class="font-sofia text-lightblack text-center desktop:text-left font-semibold pb-2 tablet:text-xl">Luxurious Pools</h3>
+                        <p class="font-sofia text-lightblack text-center desktop:text-left text-xs tablet:text-sm">Take a swim or go on a deep dive in our
                             luxurious swimming pools.</p>
                     </div>
                     <div class="w-full mb-10">
-                        <img class="mx-auto mb-5" src="img/support.svg" alt="support">
-                        <h3 class="font-sofia text-lightblack text-center font-semibold pb-2 tablet:text-xl">24-hour support</h3>
-                        <p class="font-sofia text-lightblack text-center text-xs tablet:text-sm">Our hotel staff and services are standing by
+                        <img class="mx-auto desktop:mx-0 mb-5" src="img/support.svg" alt="support">
+                        <h3 class="font-sofia text-lightblack text-center desktop:text-left font-semibold pb-2 tablet:text-xl">24-hour support</h3>
+                        <p class="font-sofia text-lightblack text-center desktop:text-left text-xs tablet:text-sm">Our hotel staff and services are standing by
                             24/7 to attend to your needs.</p>
                     </div>
                 </div>
@@ -255,14 +269,14 @@
         </div>
     </div>
     <footer class="bg-lightersalmon mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
-        <div class="pt-10">
-            <div>
+        <div class="pt-10 desktop:flex desktop:justify-between">
+            <div class="2xl:w-52">
                 <img class="pb-6" src="img/paradise-logo.svg" alt="">
                 <h3 class="font-sofia text-lightblack text-xl font-semibold">Paradise with a view</h3>
                 <p class="font-sofia text-lightblack tablet:text-base">Distinctive Vacation Rentals and
                     Exclusive Housing</p>
             </div>
-            <nav class="py-8">
+            <nav class="py-8 desktop:py-0">
                 <ul>
                     <li class="py-1 block font-sofia text-lightblack text-sm font-medium"><a href="#">Find a Hotel</a></li>
                     <li class="py-1 block font-sofia text-lightblack text-sm font-medium"><a href="#">Amenities</a></li>
@@ -272,31 +286,31 @@
                 </ul>
             </nav>
             <div class="pb-5">
-                <h3 class="font-sofia text-lightblack text-xl font-semibold py-5">Our Featured Hotels</h3>
+                <h3 class="font-sofia text-lightblack text-xl font-semibold py-5 desktop:pt-0">Our Featured Hotels</h3>
                 <ul>
                     <li class="font-sofia text-lightblack text-sm font-medium">The Royal Garden Hotel and Spa</li>
                     <li class="font-sofia text-lightblack text-sm font-medium">The Pacific Monarch Hotel Waikiki</li>
                 </ul>
             </div>
             <div>
-                <h3 class="font-sofia text-lightblack text-xl font-semibold py-5">Contact Us</h3>
+                <h3 class="font-sofia text-lightblack text-xl font-semibold py-5 desktop:pt-0">Contact Us</h3>
                 <address class="font-sofia text-lightblack text-sm font-medium not-italic">
                     ParadiseWithAView.com <br>
                     c/o Investec, Inc. 1777 Ala Moana Blvd., <br>
                     Suite 116-84, Honolulu, HI 96815
                   </address>
                   <div class="pt-12">
-                      <ul>
+                      <ul class="desktop:flex desktop:justify-between">
                           <li class="inline-block align-middle"><a href="#"><img src="img/facebook.svg" alt="facebook"></a></li>
                           <li class="inline-block align-middle"><a href="#"><img src="img/instagram.svg" alt="instagram"></a></li>
                           <li class="inline-block align-middle"><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
-                          <li class="inline-block align-middle"><a href="#"><img src="img/youtube.svg" alt="youtube"></a></li>
+                          <li class="inline-block align-middle pt-1"><a href="#"><img src="img/youtube.svg" alt="youtube"></a></li>
                           <li class="inline-block align-middle"><a href="#"><img src="img/pinterest.svg" alt="pinterest"></a></li>
                       </ul>
                   </div>
             </div>
         </div>
-        <div class="py-5">
+        <div class="py-5 desktop:flex desktop:justify-between desktop:w-1/2">
             <p class="font-sofia text-lightblack text-sm">2021 Paradisewithaview.com</p>
             <p class="font-sofia text-lightblack text-sm">Privacy Policy</p>
             <p class="font-sofia text-lightblack text-sm">Terms and Conditions</p>
