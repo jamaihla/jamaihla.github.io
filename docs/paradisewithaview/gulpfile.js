@@ -23,10 +23,10 @@ function cssTask(){
             autoprefixer(),    
             cssnano(),
             // for deployment, enable purgecss
-            // require('@fullhuman/postcss-purgecss')({
-            //     content: ['index.html'],
-            //     defaultExtractor: content => content.match(/[A-Za-z0-9-_:./]+/g) || []
-            // })
+            require('@fullhuman/postcss-purgecss')({
+                content: ['index.html'],
+                defaultExtractor: content => content.match(/[A-Za-z0-9-_:./]+/g) || []
+            })
         ]))  
         .pipe(sourcemaps.write('.')) 
         .pipe(dest('dist'))

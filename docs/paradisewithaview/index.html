@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paradise With A View</title>
     <link rel="stylesheet" href="https://use.typekit.net/lwl4jbc.css">
-    <link rel="stylesheet" href="dist/style.css?cb=1613005242777">
+    <link rel="stylesheet" href="dist/style.css?cb=1613111017117">
 </head>
 <body>
     <header class="bg-beachfront tablet:bg-lightersalmon bg-cover tablet:bg-none mx-auto px-9 py-7 tablet:px-20 tablet:py-9">
@@ -16,11 +16,11 @@
             <a href="#"><img class="w-28 tablet:w-52" src="img/paradise-logo.svg" alt="paradise logo"></a>
             <nav class="hidden desktop:block">
                 <ul>
-                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base">Find A Hotel</li>
-                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base">Amenities</li>
-                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base">Gallery</li>
-                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base">Housing</li>
-                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base">Events</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base 2xl:text-2xl">Find A Hotel</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base 2xl:text-2xl">Amenities</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base 2xl:text-2xl">Gallery</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base 2xl:text-2xl">Housing</li>
+                    <li class="inline-block font-sofia font-medium text-2xl px-2 desktop:text-base 2xl:text-2xl">Events</li>
                 </ul>
             </nav>
             <button class="hidden tablet:flex py-2 px-5 bg-redviolet text-white rounded-md justify-between items-center">
@@ -32,7 +32,7 @@
             </button>
         </div>
         <div>
-            <h1 class="font-sofia font-bold text-lightblack text-center text-3xl tablet:text-5xl desktop:text-6xl">Experience Paradise <br>In Every Vacation</h1>
+            <h1 class="font-sofia font-bold text-lightblack text-center text-3xl tablet:text-5xl desktop:text-6xl 2xl:text-8xl">Experience Paradise <br>In Every Vacation</h1>
         </div>
         <div>
             <form>
@@ -41,29 +41,29 @@
         </div>
         <main class="mx-auto px-9 py-7 tablet:px-0 2xl:px-80">
             <div class="bg-white rounded-md p-10 mt-14 relative z-10">
-                <form class="desktop:flex justify-center" action="">
-                    <div class="mx-2">
-                        <label class="font-sofia" for="hotel">Choose Hotel</label>
+                <form class="desktop:flex justify-center items-end" action="">
+                    <div class="mx-2 w-1/4">
+                        <label class="font-sofia 2xl:text-2xl" for="hotel">Choose Hotel</label>
                         <select class="w-full inputField bg-transparent" name="hotel" id="">
                             <option class="font-sofia" value="royal garden">Royal Garden</option>
                             <option class="font-sofia" value="pacific monarch" selected>Pacific Monarch</option>
                         </select>
                     </div>
-                    <div class="mx-2">
-                        <label class="font-sofia" for="checkin">Check In</label>
+                    <div class="mx-2 w-1/4">
+                        <label class="font-sofia 2xl:text-2xl" for="checkin">Check In</label>
                         <input class="w-full inputField" type="date" name="checkindate" id="checkin" value="2021-02-10" min="2021-02-10" max="2021-12-31">
                     </div>
-                    <div class="mx-2">
-                        <label class="font-sofia" for="checkin">Check Out</label>
+                    <div class="mx-2 w-1/4">
+                        <label class="font-sofia 2xl:text-2xl" for="checkin">Check Out</label>
                         <input class="w-full inputField" type="date" name="checkindate" id="checkin" value="2021-02-10" min="2021-02-10" max="2021-12-31">
                     </div>
-                    <div class="mx-2">
-                        <label class="font-sofia" for="guests">Guests</label>
+                    <div class="mx-2 w-1/4">
+                        <label class="font-sofia 2xl:text-2xl" for="guests">Guests</label>
                         <input class="w-full inputField" type="number" id="guests" name="guests" value="5"
                             min="1" max="10">
                     </div>
-                    <div class="mt-8 text-center">
-                        <button class="rounded-md bg-redviolet px-10 py-2 text-offwhite text-sm desktop:px-5 font-sofia">
+                    <div class="mt-8 text-center w-1/4">
+                        <button class="rounded-md bg-redviolet px-10 py-2 text-offwhite text-sm desktop:text-2xl desktop:px-5 font-sofia">
                             Book Now
                         </button>
                     </div>
@@ -87,7 +87,7 @@
             Booking
         </button>
     </div>
-    <div class="bg-whitish mx-auto px-9 py-7 tablet:px-20 tablet:py-9 2xl:mb-80">
+    <div class="bg-whitish mx-auto px-9 py-7 tablet:px-20 tablet:py-9 2xl:pb-40">
         <div class="hidden tablet:flex items-center justify-between">
             <div class="w-36 h-28 mr-2 desktop:w-1/4">
                 <img class="rounded-xl" src="img/beach-chair.jpg" alt="beach-chair">
@@ -95,12 +95,11 @@
             <div class="w-74 h-49 mr-2 desktop:w-2/4">
                 <img class="rounded-xl" src="img/beach-shot.jpg" alt="beach shot">
             </div>
-            <div class="w-35 h-52 relative -top-32 2xl:-top-30 desktop:w-1/4 z-0">
+            <div class="w-35 h-52 relative -top-32 2xl:-top-52 desktop:w-1/4 z-0">
                 <img class="rounded-xl mr-2" src="img/tropics.jpg" alt="tropics">
             </div>
         </div>
-        
-        <div class="desktop:mt-72 2xl:mt-80">
+        <div class="desktop:mt-72 2xl:pt-40">
             <h2 class="font-sofia text-lightblack text-center text-2xl tablet:text-4xl font-bold">Distinctive Vacation Rentals 
                 and Executive Housing</h2>
             <p class="font-sofia text-lightblack text-center text-sm tablet:text-xl font-medium mt-10">Nobis enim ipsam aliquam deserunt rerum omnis soluta ut. Corporis consectetur nemo consequatur. 
@@ -128,7 +127,6 @@
             </div>
             <div class="mb-5">
                 <img src="img/royalgarden.jpg" alt="">
-                <span>View Gallery</span>
             </div>
             
             <div class="flex justify-center items-center desktop:hidden">
@@ -186,10 +184,10 @@
                     <h3 class="font-sofia text-lightblack text-base tablet:text-2xl py-6 font-semibold">The Queen Kapiolani Room</h3>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Bed</span>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Sofa Bed</span>
-                    <div class="desktop:flex desktop:justify-between 2xl:mt-24">
-                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8 2xl:p-0">$245 a night</span>
-                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto 2xl:mx-0 flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
-                            Reserve
+                    <div class="desktop:flex desktop:justify-between desktop:mt-16 2xl:mt-24 items-center">
+                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl desktop:text-xl font-semibold py-8 desktop:p-0 2xl:p-0">$245 a night</span>
+                        <button class="bg-redviolet w-full text-sm 2xl:text-xl tablet:w-1/3 desktop:w-1/2 2xl:w-1/3 mx-auto desktop:mx-0 2xl:mx-0 flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                            <span class="">Reserve</span>
                             <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
                         </button>
                     </div>
@@ -201,10 +199,10 @@
                     <h3 class="font-sofia text-lightblack text-base tablet:text-2xl py-6 font-semibold">The Princess Kuhio Loggia</h3>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">Two Double Beds</span>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Sofa Bed</span>
-                    <div class="desktop:flex desktop:justify-between 2xl:mt-24">
-                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8 2xl:p-0">$350 a night</span>
-                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto 2xl:mx-0 flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
-                            Reserve
+                    <div class="desktop:flex desktop:justify-between desktop:mt-16 2xl:mt-24 items-center">
+                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl desktop:text-xl font-semibold py-8 desktop:p-0 2xl:p-0">$350 a night</span>
+                        <button class="bg-redviolet w-full text-sm 2xl:text-xl tablet:w-1/3 desktop:w-1/2 2xl:w-1/3 mx-auto desktop:mx-0 2xl:mx-0 flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                            <span class="">Reserve</span>
                             <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
                         </button>
                     </div>
@@ -216,10 +214,10 @@
                     <h3 class="font-sofia text-lightblack text-base tablet:text-2xl py-6 font-semibold">The King Kalakaua Suite</h3>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Bed</span>
                     <span class="block font-sofia text-lightblack text-sm tablet:text-base">One Queen Sofa Bed</span>
-                    <div class="desktop:flex desktop:justify-between 2xl:mt-24">
-                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl font-semibold py-8 2xl:p-0">$750 a night</span>
-                        <button class="bg-redviolet w-full tablet:w-1/3 mx-auto 2xl:mx-0 flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
-                            Reserve
+                    <div class="desktop:flex desktop:justify-between desktop:mt-24 2xl:mt-24 items-center">
+                        <span class="inline-block font-sofia text-darkseagreen text-sm tablet:text-2xl desktop:text-xl font-semibold py-8 desktop:p-0 2xl:p-0">$750 a night</span>
+                        <button class="bg-redviolet w-full text-sm 2xl:text-xl tablet:w-1/3 desktop:w-1/2 2xl:w-1/3 mx-auto desktop:mx-0 2xl:mx-0 flex justify-center text-offwhite px-2 py-3 items-center rounded-md">
+                            <span class="">Reserve</span>
                             <img class="ml-2" src="img/right-arrow.svg" alt="right-arrow">
                         </button>
                     </div>
